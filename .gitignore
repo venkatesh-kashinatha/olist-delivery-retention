@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+# The Olist CSVs (~126 MB) are not committed. Download them from Kaggle (see README).
+data/raw/*.csv
+data/raw/*.zip
+outputs/olist.duckdb
+outputs/tableau/orders.csv
