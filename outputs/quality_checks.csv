@@ -1,0 +1,11 @@
+check_name,failing_rows
+Duplicate order IDs in fct_orders,0
+Orders without a customer,0
+Order items with an unknown seller,0
+Order items with an unknown product,0
+More than one review per order after dedupe,0
+Review scores outside 1-5,0
+Delivered before purchase,0
+Negative prices or freight,0
+"Distance over 5,000 km (bad coordinates)",0
+Customers with more than one first order,0
